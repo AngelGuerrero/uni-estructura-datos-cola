@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="41.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Información de este programa" wrappingWidth="218.60693359375" AnchorPane.topAnchor="104.0224609375">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Text layoutX="41.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programa para realizar una demostración de petición de solicitudes de compra de hamburguesas obteniendo un turno el cual se agrega a una cola. Cuando se despacha se atiende al primer pedido de la lista." wrappingWidth="218.6069369316101" />
+      <Text layoutX="41.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Luis Ángel De Santiago Guerrero." />
+      <Text layoutX="41.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Matrícula: ES1611300455" />
+      <Text layoutX="41.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Materia: Estructura de datos." />
+      <Text layoutX="39.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Universidad Abierta y a Distncia de México." />
+      <ImageView fitHeight="95.0" fitWidth="160.0" layoutX="134.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@logoUnADM.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="40.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Docente: Ivonne Enriquez Castillo" />
+   </children>
+</AnchorPane>
